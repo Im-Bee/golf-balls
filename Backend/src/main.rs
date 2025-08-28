@@ -120,7 +120,7 @@ mod simulation {
             }
         }
 
-        pub async fn get_pos_cache(&self, index: u32) -> Vec<f32> {
+        pub async fn get_pos(&self, index: u32) -> Vec<f32> {
             const FRAME_RATE:   f32 = 60.;
             const D_FRAME_MS:   f32 = 1. / FRAME_RATE * 1000.;
 
@@ -168,7 +168,7 @@ mod routes {
             .await
             .get_mut(0)
             .unwrap()
-            .get_pos_cache(id)
+            .get_pos(id)
             .await)
     }
 }
