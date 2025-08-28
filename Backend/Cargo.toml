@@ -1,0 +1,14 @@
+[package]
+name = "Backend"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand                = "0.8"
+actix-web           = "4"
+actix-cors          = "0.7.1"
+once_cell           = "1.19"
+env_logger          = "0.11.8"
+log                 = "0.4.27"
+tokio               = { version = "1.47.1", features = ["full"] }
+orx-concurrent-vec  = "3.7.0"
