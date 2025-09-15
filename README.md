@@ -1,7 +1,7 @@
 ## Description
 
 Simple opengl js render. Frontend requests from backend transformation matrices of our golf balls and renders them.
-Works surprisingly well if client is running on separate pc.
+Works surprisingly well if client and backend is running on separate PCs.
 
 
 
